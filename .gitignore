@@ -108,3 +108,15 @@ build/
 
 # solidity-coverage output
 coverage.json
+
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
+
+.github
