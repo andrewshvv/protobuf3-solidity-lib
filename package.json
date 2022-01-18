@@ -3,13 +3,6 @@
   "version": "0.5.1",
   "description": "Codec library for protobuf3 in Solidity",
   "main": "index.js",
-  "scripts": {
-    "build": "truffle compile",
-    "coverage": "truffle run coverage",
-    "format": "prettier --write **/*.{js,sol}",
-    "lint": "eslint --ignore-path .gitignore .",
-    "test": "truffle test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lazyledger/protobuf3-solidity-lib.git"
@@ -21,13 +14,18 @@
   },
   "homepage": "https://github.com/lazyledger/protobuf3-solidity-lib#readme",
   "devDependencies": {
+    "@nomiclabs/hardhat-truffle5": "^2.0.3",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "chai": "^4.3.4",
     "eslint": "^7.8.1",
-    "eth-gas-reporter": "^0.2.17",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.2",
+    "hardhat-gas-reporter": "^1.0.7",
     "prettier": "^2.1.1",
     "prettier-plugin-solidity": "^1.0.0-alpha.57",
     "protobufjs": "~6.10.1",
-    "solidity-coverage": "^0.7.10",
-    "truffle": "^5.4.29",
-    "truffle-assertions": "^0.9.2"
+    "solidity-coverage": "^0.7.12",
+    "web3": "^1.7.0"
   }
 }
